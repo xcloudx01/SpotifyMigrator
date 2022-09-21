@@ -1,6 +1,6 @@
 # Spotify Migrator
-Spotify Migrator is an application to transfer your spotify data from an account to another  
-I never found an online service who did what I wanted, so I made this.  
+Spotify Migrator is an application to transfer your spotify data from an account to another
+I never found an online service who did what I wanted, so I made this.
 ### If you find it useful, make sure to star Thank you!.
 
 ## Features
@@ -19,7 +19,8 @@ You can still use V1 of Spotify Migrator(its a branch) if you want to, but I wou
 
 This application requires [Node.js](https://nodejs.org/) v10+ to run.
 
-Install the dependencies
+Run cmd or Terminal and navigate to where you un-zipped this repo.
+Run this command to install all dependancies:
 ```sh
 npm i
 ```
@@ -43,10 +44,12 @@ Once you created your application, we will need to edit some informations.
 Go back to the developer dashboard, click on the app you made, grab the Client ID and the Client Secret and put them in the file config.json (replace CHANGEME).
 
 #### Start the app
+Run cmd or Terminal and navigate to where you un-zipped this repo.
+Run this command:
 ```sh
-node app.js
+start "" http://localhost:3000 & node app.js
 ```
-Then visit localhost:3000 on your browser.
+The app will start and it's interface will open in a web browser.
 
 ## Development
 Want to contribute? Great!
