@@ -40,7 +40,7 @@ Once you created your application, we will need to edit some informations.
 5. Add the email of the other account you are not currently logged in (new or old) to give it access to the application.
 
 #### Setting up the config
-Grab the Client ID and the Client Secret from your application and put them in the file config.json (replace CHANGEME)
+Go back to the developer dashboard, click on the app you made, grab the Client ID and the Client Secret and put them in the file config.json (replace CHANGEME).
 
 #### Start the app
 ```sh
